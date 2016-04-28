@@ -29,5 +29,5 @@
 </div>
 
 <div class="form-group">
-    {!! Form::submit($submitButtonText, ['id' => 'modal-save', 'class' => 'btn btn-primary form-control', 'onClick' => "AjaxFormRequest('resultpost', 'resulterrorpost', 'popupfrmcallorder', '/popupcallorderajax' )"])!!}
+    {!! Form::submit($submitButtonText, ['class' => 'btn btn-primary form-control'])!!}
 </div>
